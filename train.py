@@ -78,4 +78,4 @@ model.compile(optimizer='rmsprop',
               metrics=['accuracy'])
               
 model.fit(x=resized_train_x, y=onehot,epochs=6, verbose=True)
-model.save("/model")
+model.save("/model/1")
